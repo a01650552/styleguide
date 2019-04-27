@@ -9,7 +9,7 @@ Follow the [AIRBNB JavaScript style guide](https://github.com/airbnb/javascript)
 - **Use two spaces for indentation.** Four spaces are banned. Tabs are especially banned.
 > Why? This is the standard for most modern JS code and most of our team uses this already.
 
-- **`var` is banned.** Always prefer const, or let if you may be reassigning something. If you need to assign a value in a conditional, declare the variable first.
+- **`var` is banned.** Always prefer `const`, or `let` if you may be reassigning something. If you need to assign a value in a conditional, declare the variable first.
 > Why? `var` has scoping issues that makes it easy to introduce subtle bugs.
 ```javascript
 // bad - one line shorter, but using var is a no-no
