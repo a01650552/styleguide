@@ -6,6 +6,9 @@ I'm creating this style guide to standardize conventions in all our projects fro
 
 Follow the [AIRBNB JavaScript style guide](https://github.com/airbnb/javascript). I'll summarize the basic points below and any changes specific to PC styles.
 
+- **Use semicolons.**
+> Why? JS has a few weird cases where automatic semicolon insertion will cause issues. Those times are rare, but the minimal effort of using semicolons is worth it.
+
 - **Use two spaces for indentation.** Four spaces are banned. Tabs are especially banned.
 > Why? This is the standard for most modern JS code and most of our team uses this already.
 
@@ -55,3 +58,12 @@ const { text } = this.state;
 ```
 
 - **Never use string concatenation.** Use template strings with `${}` syntax instead.
+
+- **When method chaining, use a leading dot and an extra indent on each new line.**
+> Why? The dot and indent make it obvious that this is part of a chain.
+```javascript
+const onlineUsernames = users
+  .filter(user => user.isOnline)
+  .map(user => user.username)
+  .join(', ');
+```
