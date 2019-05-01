@@ -31,8 +31,8 @@ if (something) {
 }
 ```
 
-- **Use trailing commas on multiline arrays and objects.**
-> Why? Better diffs on GitHub.
+- **Use trailing commas on multiline array or object literals.**
+> Why? Better diffs on GitHub. And it's easier to add or reorder stuff.
 
 - **Use spaces around the inside of one-line object literals.**
 ```javascript
