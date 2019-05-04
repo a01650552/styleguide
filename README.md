@@ -75,7 +75,7 @@ const onlineUsernames = users
 export function parseBBCode(code: string, parseEmoji: boolean, parseLinks: boolean, allowHTML: boolean) 
 
 // good - using keyword arguments
-export interface BBCodeParserOptions {
+interface BBCodeParserOptions {
   parseEmoji: boolean;
   parseLinks: boolean;
   allowHTML: boolean;
