@@ -83,3 +83,5 @@ interface BBCodeParserOptions {
 
 export function parseBBCode(code: string, { parseEmoji, parseLinks, allowHTML }: BBCodeParserOptions)
 ```
+
+- **Order your imports in this order:** 1: library imports (always include React first if this is a react project), 2: JS/TS file imports, non-JS file imports (like JSON or CSS). Leave an empty line between each of these groups.
