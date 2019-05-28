@@ -22,7 +22,7 @@ openModal = () => {
 
 - **Write long JSX tags as follows, with one value per line.** This is used for both standalone and inline tags.
 > Why? This makes it easier to read while not requiring you to move the closing `>` or `/>` part around if you add new properties at the end. Basically the same reasoning with trailing commas in object literals.
-```javascript
+```jsx
 <Page
   name="Thread"
   loading={!this.state.thread}
