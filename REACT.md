@@ -30,4 +30,6 @@ openModal = () => {
   breadcrumbs={this.state.thread && this.getBreadcrumbs()}
   htmlTitle={this.getHtmlTitle()}
 >
+  {/* ... */}
+</Page>
 ```
