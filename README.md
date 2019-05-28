@@ -2,7 +2,9 @@ I'm creating this style guide to standardize conventions in all our projects fro
 
 - Dakota
 
-- [JavaScript](https://github.com/thepokecommunity/styleguide/blob/master/JAVASCRIPT.md)
-- [TypeScript](https://github.com/thepokecommunity/styleguide/blob/master/TYPESCRIPT.md)
-- [React](https://github.com/thepokecommunity/styleguide/blob/master/REACT.md)
-- SCSS - soon tm
+## Index
+
+- [JavaScript Style Guide](https://github.com/thepokecommunity/styleguide/blob/master/JAVASCRIPT.md)
+- [TypeScript Style Guide](https://github.com/thepokecommunity/styleguide/blob/master/TYPESCRIPT.md)
+- [React Style Guide](https://github.com/thepokecommunity/styleguide/blob/master/REACT.md)
+- SCSS Style Guide - Soon(tm)
