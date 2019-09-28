@@ -3,7 +3,7 @@
 Follow this guide in React in addition to the JavaScript and TypeScript style guides.
 
 - **Use React Hooks whenever possible as an alternative to React.Component.**
-> Why? Hooks are easier to understand, easier to reuse, and shorter. [Take the time to read the guide](https://reactjs.org/docs/hooks-intro.html), and once you have I recommend using them for all new components. You aren't required to port existing components to hooks. If you're making a massive controller-style component (like ThreadPage, IndexPage), stick with classes, but otherwise go for hooks.
+> Why? Hooks are easier to understand, easier to reuse, and shorter. [Take the time to read the guide](https://reactjs.org/docs/hooks-intro.html), and once you have I recommend using them for all new components. You aren't required to port existing components to hooks. However, if you're making a massive controller-style component (like ThreadPage, IndexPage), stick with classes.
 
 - **When using React.Component, never bind event listeners in the constructor. Use arrow method syntax instead.**
 > Why? Unnecessary boilerplate is bad.
